@@ -678,9 +678,10 @@ p {
 =====================*/
  
 .back-to-top img {
-    position: fixed;
+    position: fixed; 
     width: 45px;
     animation: anim 2s infinite;
+    display: block;
 }
 
 @keyframes anim {
